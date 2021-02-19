@@ -1,5 +1,5 @@
 [build]
-base = ""
+base = "web/"
 publish = "public/"
 
 [build.environment]
