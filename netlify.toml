@@ -1,9 +1,7 @@
 [build]
-base = "/"
-command = "hugo --gc --minify"
-context = "production"
+base = ""
+command = "yarn build:prod"
 publish = "public"
-
 
 [build.environment]
 HUGO_VERSION = "0.76.3"
